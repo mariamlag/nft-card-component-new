@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    background-color: #0d192c;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container {
+    font-family: 'Outfit';
+    height: 596px;
+    width: 350px;
+    border-radius: 15px;
+    background: #15263F;
+    padding: 24px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.image-equilibrium{
+   width: 302px;
+   height: 302px;
+   border-radius: 8px;
+}
+
+.title-equilibrium{
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+    margin: 24px 16px 24px 0;
+}
+
+.text-equilibrium{
+    margin: 0 0 24px 0;
+}
+.text-equi{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8bacd9;
+}
+.price-container{
+    height: 20px;
+    width: 301px;
+    display: flex;
+    justify-content: space-between;
+}
+.txt-eth{
+    font-size: 16px;
+    font-weight: 600;
+    color: #00fff8;
+    display: inline;
+    margin-left: 6px;
+}
+.eth, .clock{
+    align-items: center;
+    display: flex;
+}
+.txt-days{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8bacd9;
+    display: inline;
+    margin-left: 9px;
+}
+.line{
+    height: 1px;
+    border: 0;
+    margin: 24px 0 16px 0;
+    border-top: 1px solid #2E405A;
+}
+.avatar{
+    width: 230px;
+    height: 33px;
+    display: flex;
+    margin-top: 22px;
+    
+}
+.image-avatar{
+    background: url(images/favicon-32x32.png);
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+.name{
+    align-items: center;
+    display: flex;
+    margin-left: 16px;
+}
+.name1, .name2{
+    font-family: 'Outfit';
+    font-size: 16px;
+    display: contents;
+    font-weight: 400;
+}
+.name1{
+    color: #8bacd9;
+}
+.name2{
+    cursor: pointer;
+    color: white;
+}
+.view{
+    position: absolute;
+    border-radius: 8px;
+    padding: 129px;
+    opacity: 0;
+    background: #00fff8;
+    cursor: pointer;
+}
+
+.images:hover .view{
+    opacity: 50%;
+}
+.name2:hover{
+    color: aqua;
+}
